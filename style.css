@@ -1,0 +1,214 @@
+/* ======= General Styles ======= */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ======= Navbar Styles ======= */
+.navbar {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important;
+}
+
+/* ======= Hero Section ======= */
+.hero {
+    background: linear-gradient(to right, #ff5733, #c70039);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+}
+
+/* ======= About Section ======= */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* ======= Educación y Certificaciones ======= */
+#education {
+    background: #eef1f6;
+    padding: 60px 20px;
+}
+
+.education-card {
+    background: white;
+    border-left: 5px solid #007bff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ======= Skill Section ======= */
+
+.skill-card, .hobby-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.skill-card:hover, .hobby-card:hover {
+    transform: scale(1.05);
+}
+.skill-card i, .hobby-card i {
+    margin: 10px;
+    color: #007bff;
+}
+.skill-title, .hobby-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.education-card a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: none;
+}
+.education-card a:hover {
+    color: #0056b3;
+}
+/* ======= Projects Section ======= */
+#projects {
+    padding: 60px 20px;
+    background: #eef1f6;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Hace que todas las tarjetas tengan la misma altura */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Asegurar que los textos sean del mismo tamaño */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Hacer que los párrafos ocupen el mismo espacio */
+.card-text {
+    flex-grow: 1;
+}
+
+/* Asegurar que el título se mantenga arriba */
+.card-title {
+    min-height: 50px; /* Ajusta este valor según la longitud del título */
+}
+
+/* ======= Ajustar imágenes de los proyectos ======= */
+.card-img-top {
+    width: 100%; /* Que ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Ajusta esta altura según prefieras */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+}
+
+
+/* ======= Hobbies Section ======= */
+.skill-card, .hobby-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.skill-card:hover, .hobby-card:hover {
+    transform: scale(1.05);
+}
+.skill-card i, .hobby-card i {
+    margin: 10px;
+    color: #007bff;
+}
+.skill-title, .hobby-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* ======= Contact Section ======= */
+#contact {
+    background: #343a40;
+    color: white;
+    padding: 60px 20px;
+}
+
+#contact a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ======= Footer ======= */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+
