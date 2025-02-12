@@ -213,37 +213,37 @@ footer {
 /* ======= Dark Mode ======= */
 
 .dark-mode {
-    background-color: #121212 !important;
-    color: white !important;
+    background-color: #121212;
+    color: white;
 }
 
 .dark-mode .navbar {
-    background-color: #1e1e1e !important;
+    background-color: #1e1e1e;
 }
 
 .dark-mode .card {
-    background-color: #242424 !important;
-    color: white !important;
+    background-color: #242424;
+    color: white;
 }
 
 .dark-mode .btn {
-    background-color: #292929 !important;
+    background-color: #292929;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode .btn:hover {
-    background-color: #444 !important;
-    color: #ddd !important;
+    background-color: #444;
+    color: #ddd;
 }
 
 .dark-mode .btn-primary {
-    background-color: #007bff !important;
-    border-color: #007bff !important;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .dark-mode .btn-primary:hover {
-    background-color: #0056b3 !important;
-    border-color: #004999 !important;
+    background-color: #0056b3;
+    border-color: #004999;
 }
 
 .dark-mode .hobby-card {
