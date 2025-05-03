@@ -34,113 +34,123 @@
                     <button id="darkModeToggle" class="btn btn-dark border-0 p-2">
                         <i id="darkModeIcon" class="fas fa-moon"></i>
                     </button>
+                    <button id="languageToggle" class="btn btn-dark border-0 p-2 ms-2">
+                        <i class="fas fa-globe"></i> <span id="languageLabel">EN</span>
+                    </button>
                 </ul>
             </div>
         </div>
 
     </nav>
 
-    <header class="text-center py-5 bg-black     text-white">
-        <h1>Alessandro Metzger</h1>
-        <h3>fullstack Developer</h3>
-        <p>Explora mis proyectos y conoce más sobre mí</p>
+    <header class="hero-header text-center py-5">
+        <div class="hero-bg"></div>
+        <div class="container hero-flex d-flex flex-column flex-md-row align-items-center justify-content-center position-relative z-1">
+            <div class="hero-img mb-4 mb-md-0 me-md-5">
+                <img src="resources/images/image.png" alt="Alessandro Metzger" class="profile-img">
+            </div>
+            <div class="hero-content text-center text-md-start">
+                <h1 class="hero-title">Alessandro Metzger</h1>
+                <h3 class="hero-subtitle" data-es="DESARROLLADOR FULLSTACK" data-en="FULLSTACK DEVELOPER">FULLSTACK DEVELOPER</h3>
+                <p class="hero-desc" data-es="Explora mis proyectos y conoce más sobre mí" data-en="Explore my projects and learn more about me">Explore my projects and learn more about me</p>
+            </div>
+        </div>
     </header>
 
     <!-- Sobre mí -->
     <section id="about" class="container py-5">
-        <h2>Sobre mí</h2>
-        <p>Soy un desarrollador fullstack apasionado por construir aplicaciones web robustas y escalables. Me
-            especializo en tecnologías modernas como React, Node.js y bases de datos relacionales y no relacionales.
-            Estoy comprometido con la mejora continua y siempre busco aprender nuevas herramientas y tecnologías para
-            ofrecer soluciones innovadoras.</p>
+        <h2 data-es="Sobre mí" data-en="About Me">About Me</h2>
+        <p data-es="Como desarrollador Full Stack, combino creatividad y precisión técnica para crear soluciones digitales innovadoras. Mi experiencia abarca desde el desarrollo frontend con React hasta la implementación de arquitecturas backend robustas con Node.js. Mi enfoque se centra en construir aplicaciones escalables y de alto rendimiento, mientras mantengo un compromiso constante con las mejores prácticas de desarrollo y la experiencia del usuario." 
+           data-en="As a Full Stack Developer, I combine creativity and technical precision to create innovative digital solutions. My experience spans from frontend development with React to implementing robust backend architectures with Node.js. My focus is on building scalable and high-performance applications while maintaining a constant commitment to development best practices and user experience.">
+           As a Full Stack Developer, I combine creativity and technical precision to create innovative digital solutions. My experience spans from frontend development with React to implementing robust backend architectures with Node.js. My focus is on building scalable and high-performance applications while maintaining a constant commitment to development best practices and user experience.
+        </p>
     </section>
 
     <!-- Educación y Certificaciones -->
     <section id="education" class="container py-5">
-        <h2 class="text-center education-title">Educación y Certificaciones</h2>
+        <h2 class="text-center education-title" data-es="Formación Académica" data-en="Academic Background">Academic Background</h2>
         <div class="row">
             <div class="col-md-6 mt-3">
                 <div class="card education-card">
                     <div class="card-body">
                         <h5 class="card-title">Universidad EIA</h5>
-                        <p class="card-text">Grado en Ingeniería en Sistemas y Computación - 2026</p>
+                        <p class="card-text" data-es="Ingeniería en Sistemas y Computación | En curso - 2026" data-en="Systems and Computing Engineering | In progress - 2026">Systems and Computing Engineering | In progress - 2026</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mt-3">
                 <div class="card education-card">
                     <div class="card-body">
-                        <h5 class="card-title"><a
-                                href="https://www.coursera.org/account/accomplishments/specialization/0C8SABT1QOHO"
-                                target="_blank">Mathematics for Machine Learning and Data Science</a></h5>
-                        <p class="card-text">Coursera / Deeplearning.ai - 2025</p>
+                        <h5 class="card-title"><a href="https://www.coursera.org/account/accomplishments/specialization/0C8SABT1QOHO" target="_blank">Mathematics for Machine Learning and Data Science</a></h5>
+                        <p class="card-text" data-es="Deeplearning.ai | Especialización en Matemáticas para ML" data-en="Deeplearning.ai | Specialization in Mathematics for ML">Deeplearning.ai | Specialization in Mathematics for ML</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mt-3">
                 <div class="card education-card">
                     <div class="card-body">
-                        <h5 class="card-title"><a
-                                href="https://www.coursera.org/account/accomplishments/specialization/07I923SCVR0S"
-                                target="_blank">Machine Learning</a></h5>
-                        </h5>
-                        <p class="card-text">Coursera / Standford University - 2025</p>
+                        <h5 class="card-title"><a href="https://www.coursera.org/account/accomplishments/specialization/07I923SCVR0S" target="_blank">Machine Learning</a></h5>
+                        <p class="card-text" data-es="Stanford University | Especialización en Machine Learning" data-en="Stanford University | Machine Learning Specialization">Stanford University | Machine Learning Specialization</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mt-3">
                 <div class="card education-card">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.efset.org/cert/shrjL6" target="_blank">EF SET English
-                                Certificate</a></h5>
-                        <p class="card-text">EF - 2023</p>
+                        <h5 class="card-title"><a href="https://www.efset.org/cert/shrjL6" target="_blank">EF SET English Certificate</a></h5>
+                        <p class="card-text" data-es="Certificación Internacional de Inglés | Nivel Avanzado" data-en="International English Certification | Advanced Level">International English Certification | Advanced Level</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Hanilidades -->
+
+    <!-- Skills -->
     <section id="skills" class="container py-5">
-        <h2 class="text-center">Skills</h2>
+        <h2 class="text-center" data-es="Competencias Técnicas" data-en="Technical Skills">Technical Skills</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="skill-card">
-                    <h4 class="skill-title">Frontend</h4>
+                    <h4 class="skill-title" data-es="Desarrollo Frontend" data-en="Frontend Development">Frontend Development</h4>
                     <i class="fab fa-html5 fa-3x"></i>
                     <i class="fab fa-css3-alt fa-3x"></i>
                     <i class="fab fa-js fa-3x"></i>
                     <i class="fab fa-react fa-3x"></i>
+                    <p class="skill-desc" data-es="Creación de interfaces modernas y responsivas" data-en="Creating modern and responsive interfaces">Creating modern and responsive interfaces</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="skill-card">
-                    <h4 class="skill-title">Backend</h4>
+                    <h4 class="skill-title" data-es="Desarrollo Backend" data-en="Backend Development">Backend Development</h4>
                     <i class="fab fa-node fa-3x"></i>
                     <i class="fab fa-python fa-3x"></i>
                     <i class="fab fa-java fa-3x"></i>
+                    <p class="skill-desc" data-es="Arquitecturas robustas y APIs RESTful" data-en="Robust architectures and RESTful APIs">Robust architectures and RESTful APIs</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="skill-card">
-                    <h4 class="skill-title">SQL</h4>
+                    <h4 class="skill-title" data-es="Bases de Datos" data-en="Databases">Databases</h4>
                     <i class="fas fa-database fa-3x"></i>
+                    <p class="skill-desc" data-es="Diseño y optimización de bases de datos" data-en="Database design and optimization">Database design and optimization</p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Proyectos -->
     <section id="projects" class="container py-5">
-        <h2 class="text-center proyectos-title">Proyectos</h2>
+        <h2 class="text-center proyectos-title" data-es="Proyectos Destacados" data-en="Featured Projects">Featured Projects</h2>
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
                     <img src="resources/images/project1.webp" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Página web para voluntariado</h5>
-                        <p class="card-text">Haciendo uso de mis conocimientos en frontend se plantea un modelo
-                            responsive para ofrecer a personas que estén interesadas en apadrinar a niños y adultos
-                            mayores, se utilizan herramientas como JS, HTML, CSS además de conocimientos en el
-                            despliegue.</p>
+                        <h5 class="card-title" data-es="Plataforma de Voluntariado" data-en="Volunteering Platform">Volunteering Platform</h5>
+                        <p class="card-text" data-es="Desarrollo de una plataforma web responsiva para conectar voluntarios con oportunidades de apadrinamiento. Implementación de diseño centrado en el usuario, optimización de rendimiento y despliegue en producción." 
+                           data-en="Development of a responsive web platform to connect volunteers with sponsorship opportunities. Implementation of user-centered design, performance optimization, and production deployment.">
+                           Development of a responsive web platform to connect volunteers with sponsorship opportunities. Implementation of user-centered design, performance optimization, and production deployment.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -148,64 +158,75 @@
                 <div class="card">
                     <img src="resources/images/project2.webp" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
-                        <h5 class="card-title">Chaser</h5>
-                        <p class="card-text">Se utilizaron conocimientos en C#, Unity y ML para un prototipo tipo beta
-                            de un videojuego que busca meter al usuario en un mundo donde debe escapar de un perseguidor
-                            encontrando objetos en el camino para desbloquear la salida, con una atmósfera de terror de
-                            por medio.</p>
+                        <h5 class="card-title" data-es="Chaser - Videojuego de Terror" data-en="Chaser - Horror Game">Chaser - Horror Game</h5>
+                        <p class="card-text" data-es="Desarrollo de un prototipo de videojuego de terror utilizando C# y Unity, integrando algoritmos de Machine Learning para crear una experiencia inmersiva y desafiante." 
+                           data-en="Development of a horror game prototype using C# and Unity, integrating Machine Learning algorithms to create an immersive and challenging experience.">
+                           Development of a horror game prototype using C# and Unity, integrating Machine Learning algorithms to create an immersive and challenging experience.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Hobbies -->
     <section id="hobbies" class="container py-5">
-        <h2 class="text-center">Hobbies</h2>
+        <h2 class="text-center" data-es="Intereses Personales" data-en="Personal Interests">Personal Interests</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="hobby-card">
-                    <h4 class="hobby-title">Fútbol</h4>
+                    <h4 class="hobby-title" data-es="Fútbol" data-en="Soccer">Soccer</h4>
                     <i class="fas fa-futbol fa-3x"></i>
-                    <p>Me encanta jugar y ver fútbol, es una gran pasión en mi vida.</p>
+                    <p data-es="Apasionado del fútbol, tanto como jugador como espectador, valorando el trabajo en equipo y la estrategia." 
+                       data-en="Passionate about soccer, both as a player and spectator, valuing teamwork and strategy.">
+                       Passionate about soccer, both as a player and spectator, valuing teamwork and strategy.
+                    </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="hobby-card">
-                    <h4 class="hobby-title">Aprender Programación</h4>
+                    <h4 class="hobby-title" data-es="Desarrollo Tecnológico" data-en="Technology Development">Technology Development</h4>
                     <i class="fas fa-laptop-code fa-3x"></i>
-                    <p>Siempre estoy explorando nuevas tecnologías y mejorando mis habilidades de desarrollo.</p>
+                    <p data-es="Exploración constante de nuevas tecnologías y metodologías de desarrollo para mantenerme a la vanguardia." 
+                       data-en="Constant exploration of new technologies and development methodologies to stay at the forefront.">
+                       Constant exploration of new technologies and development methodologies to stay at the forefront.
+                    </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="hobby-card">
-                    <h4 class="hobby-title">Leer Historias de Terror</h4>
+                    <h4 class="hobby-title" data-es="Literatura de Terror" data-en="Horror Literature">Horror Literature</h4>
                     <i class="fas fa-book fa-3x"></i>
-                    <p>Disfruto sumergirme en relatos de terror y misterio en mi tiempo libre.</p>
+                    <p data-es="Exploración de narrativas de terror y misterio, apreciando la construcción de atmósferas y tensiones psicológicas." 
+                       data-en="Exploration of horror and mystery narratives, appreciating the construction of atmospheres and psychological tensions.">
+                       Exploration of horror and mystery narratives, appreciating the construction of atmospheres and psychological tensions.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Contacto -->
     <section id="contact" class="container py-5">
-        <h2>Contacto</h2>
+        <h2 data-es="Contacto" data-en="Contact">Contact</h2>
         <p>Email: gastonmetzgera@gmail.com</p>
-        <a href="https://www.linkedin.com/in/gast%C3%B3n-alessandro-metzger-arce-a8113b15b/" target="_blank"
-            class="btn btn-dark">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/gast%C3%B3n-alessandro-metzger-arce-a8113b15b/" target="_blank" class="btn btn-dark">LinkedIn</a>
         <a href="https://github.com/AlessoMTZ" target="_blank" class="btn btn-dark">GitHub</a>
-        <form>
+        <form id="contact-form" class="mt-4">
             <div class="mb-3">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" required>
+                <label for="user_name" class="form-label" data-es="Nombre" data-en="Name">Name</label>
+                <input type="text" class="form-control" id="user_name" name="user_name" required>
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <label for="user_email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="user_email" name="user_email" required>
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
+                <label for="message" class="form-label" data-es="Mensaje" data-en="Message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" data-es="Enviar" data-en="Send">Send</button>
+            <div id="form-status" class="mt-3"></div>
         </form>
     </section>
 
@@ -214,6 +235,8 @@
     </footer>
     <script src="https://kit.fontawesome.com/a6ba69c805.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/config.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
